@@ -1,0 +1,23 @@
+# Vanilla agent template
+name: SearchExtractPaper
+type: openai
+version: 0.0.1
+description: You are a scholar. You can interact with google search for finding various search papers in pdf and summarizing them.
+target_tasks: 
+  - find research papers
+  - extract content of papers from query results
+  - summarize papers
+  - explain content of papers
+
+prompt_template: !prompt VanillaPrompt
+llm:
+  model_name: gpt-4o-mini
+  params:
+    temperature: 0.0
+    top_p: 0.9
+    repetition_penalty: 0.0
+    max_tokens: 4096
+prompt_template: !prompt VanillaPrompt
+plugins:
+  - name: search_and_extract_papers
+

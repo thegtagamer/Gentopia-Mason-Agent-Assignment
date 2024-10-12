@@ -13,6 +13,8 @@ from .gradio import *
 from .code_interpreter import PythonCodeInterpreter
 from .file_operation import WriteFile, ReadFile
 from .duckduckgo import DuckDuckGo
+from .search_and_extract_papers import SearchAndExtractPapers
+from .url_scanner import URLScanner
 
 
 def load_tools(name: str) -> BaseTool:
@@ -36,6 +38,7 @@ def load_tools(name: str) -> BaseTool:
         "web_page": WebPage,
         "wolfram_alpha": WolframAlpha,
         "duckduckgo": DuckDuckGo,
+        "search_and_extract_papers": SearchAndExtractPapers,
         "search_author_by_name": SearchAuthorByName,
         "search_author_by_interests": SearchAuthorByInterests,
         "author_uid2paper": AuthorUID2Paper,
@@ -43,6 +46,7 @@ def load_tools(name: str) -> BaseTool:
         "search_single_paper": SearchSinglePaper,
         "search_related_paper": SearchRelatedPaper,
         "search_cite_paper": SearchCitePaper,
+        "url_scanner": URLScanner
     }
     if name not in name2tool:
         raise NotImplementedError

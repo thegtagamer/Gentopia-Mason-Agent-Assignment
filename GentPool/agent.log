@@ -1,0 +1,73 @@
+INFO:root:Creating Config from file: ./gentpool/pool/URLScanAgent/agent.yaml
+INFO:root:Starting to load configuration from ./gentpool/pool/URLScanAgent/agent.yaml
+INFO:root:Successfully loaded configuration from ./gentpool/pool/URLScanAgent/agent.yaml
+INFO:root:--------------------
+INFO:root:[green]Welcome to Gentopia!
+INFO:root:--------------------
+INFO:root:[green]User: 
+INFO:root:URLScanAgent is thinking...
+INFO:root:Done
+INFO:root:[blue]URLScanAgent: 
+INFO:root:{"name":"url_scanner", "arguments":{"query":"vansh0016.github.io/vanshweb/blog.html"}}
+
+INFO:root:Calling function: url_scanner ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:vansh0016.github.io is: [SAFE] to visit.
+INFO:root:--------------------
+INFO:root:URLScanAgent is thinking...
+INFO:root:Done
+INFO:root:[blue]URLScanAgent: 
+INFO:root:The URL [vansh0016.github.io/vanshweb/blog.html](https://vansh0016.github.io/vanshweb/blog.html) is safe for you to visit.
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:URLScanAgent is thinking...
+INFO:root:Done
+INFO:root:[blue]URLScanAgent: 
+INFO:root:{"name":"url_scanner", "arguments":{"query":"http://www.wholemeltextracts-store.com"}}
+
+INFO:root:Calling function: url_scanner ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:wholemeltextracts-store.com is: [UNSAFE] to visit.
+INFO:root:--------------------
+INFO:root:URLScanAgent is thinking...
+INFO:root:Done
+INFO:root:[blue]URLScanAgent: 
+INFO:root:The URL http://www.wholemeltextracts-store.com is unsafe to visit.
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:URLScanAgent is thinking...
+INFO:root:Done
+INFO:root:[blue]URLScanAgent: 
+INFO:root:{"name":"url_scanner", "arguments":{"query":"walmart.com"}}
+
+INFO:root:Calling function: url_scanner ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:walmart.com is: [SAFE] to visit.
+INFO:root:--------------------
+INFO:root:URLScanAgent is thinking...
+INFO:root:Done
+INFO:root:[blue]URLScanAgent: 
+INFO:root:The website walmart.com is safe to visit.
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:URLScanAgent is thinking...
+INFO:root:Done
+INFO:root:[blue]URLScanAgent: 
+INFO:root:{"name":"url_scanner", "arguments":{"query":"https://nlp.cs.gmu.edu/"}}
+
+INFO:root:Calling function: url_scanner ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:nlp.cs.gmu.edu is: [SAFE] to visit.
+INFO:root:--------------------
+INFO:root:URLScanAgent is thinking...
+INFO:root:Done
+INFO:root:[blue]URLScanAgent: 
+INFO:root:The website https://nlp.cs.gmu.edu/ is safe to visit.
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:
+[red]Bye!
